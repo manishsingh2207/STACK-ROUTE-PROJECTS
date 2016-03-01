@@ -1,0 +1,149 @@
+/* --------------------------------------
+Typography
+-------------------------------------- */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat', sans-serif;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+    margin-top: 20px;
+    display: none;
+}
+blockquote {
+    margin-top: 20px;
+}
+.thumbnail {
+    margin-top: 20px;
+}
+/* --------------------------------------
+Layout
+-------------------------------------- */
+
+#main_body {
+    padding: 0px;
+    overflow: hidden;
+}
+#carousel {
+    margin-top: -50px;
+}
+/* --------------------------------------
+Video
+-------------------------------------- */
+
+video {
+    width: 100%;
+    z-index: -999;
+}
+/* --------------------------------------
+Navbar
+-------------------------------------- */
+
+.navbar-brand img {
+    top: 0px;
+    margin-top: -15px;
+}
+.navbar {
+    background: transparent;
+    border: none;
+    z-index: 999;
+    overflow: hidden;
+}
+#navbar-collapse-1 {
+    transition-duration: 1s;
+}
+#navbar-collapse-1 a {
+    color: white;
+}
+#navbar-collapse-1 a:hover {
+    color: #91D6ED;
+}
+#activeNav a {
+    color: black;
+}
+#dropdown-color>li>a,
+#dropdown-color1>li>a {
+    color: black;
+}
+/* --------------------------------------
+footer
+-------------------------------------- */
+
+#footerElement1,
+#footerElement2 {
+    padding-top: 6px;
+}
+/* --------------------------------------
+hero
+-------------------------------------- */
+
+#hero h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.75rem;
+    font-weight: 800;
+    letter-spacing: 0.125rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+    margin-top: 60px;
+}
+#myCarousel .item {
+    height: 600px;
+}
+/* --------------------------------------
+Media Queries
+-------------------------------------- */
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+    .navbar {
+        background: grey;
+        border: none;
+        z-index: 999;
+    }
+    #button1,
+    #button2,
+    #button3 {
+        padding-bottom: 20px;
+    }
+    #myCarousel {
+        margin-top: 20px;
+    }
+    #myCarousel .item {
+        height: 300px;
+    }
+    #dropdown-color>li>a,
+    #dropdown-color1>li>a {
+        color: white;
+    }
+}
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {
+    #myCarousel .item {
+        height: 310px;
+    }
+    .navbar {
+        background: grey;
+        border: none;
+        z-index: 999;
+    }
+    #dropdown-color>li>a,
+    #dropdown-color1>li>a {
+        color: white;
+    }
+}
+/* Large desktop */
+
+@media (min-width: 1200px) {}

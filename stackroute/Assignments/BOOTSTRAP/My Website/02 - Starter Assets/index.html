@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container" id="main">
+<!----------------------------------------------------------------------------------------------------------->
+			<div class="navbar navbar-fixed-top ">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"/></a>
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav navbar-inverse">
+
+							<li class="active">
+								<a href="#">HOME</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown_toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a href="">Web Design</a></li>
+									<li><a href="">Web Development</a></li>
+									<li><a href="">SEO</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">More Services</li>
+									<li> <a href="#">Content Creation</a></li>
+									<li><a href="#"> Social Media Marketing</a></li>
+								</ul><!--End drop down menu-->
+							</li>
+						</ul><!--end nav-->
+
+						<form class="navbar-form pull-left" action="index.html" method="post">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" ></span></button>
+						</form><!--form ends here-->
+
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown_toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account<strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li><a href="#"><span class="glyphicon glyphicon-user"></span> View profile</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> Edit Profile</a></li>
+									<li><a href="#"> Search other users</a></li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Others</li>
+									<li></span><a href="#"><span class="glyphicon glyphicon-wrench"> Settings</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-off"> Sign Out</a></li>
+								</ul><!--end dropdown menu-->
+							</li>
+						</ul><!-- end nav-pull right-->
+					</div><!--end nav-collapse-->
+				</div><!--container ends here-->
+			</div><!--navbar end-->
+
+<!----------------------------------------------------------------------------------------------------------->
+			<!-- CAROUSEL-->
+			<div class="carousel slide" id="myCarousel" >
+				<!--indicators-->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"> </li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+
+				<!--Wrapper for slides-->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Bootstarp 3</h4>
+							<p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3!</p>
+						</div><!--end carousel caption-->
+					</div><!--end item-->
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>About Bootstarp</h4>
+							<p>hahahahahaha</p>
+						</div><!--end carousel caption-->
+					</div><!--end item-->
+
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Bootstarp ENd</h4>
+							<p>manish singh</p>
+						</div><!--end carousel caption-->
+					</div><!--end item-->
+
+				</div><!--carousel inner-->
+				<!--controls-->
+				<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+				<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+			</div><!--end my_carousel-->
+
+<!----------------------------------------------------------------------------------------------------------->
+
+			<div class="row" id="bigCallout">
+				<div class="col_12">
+				<div class="alert alert-success alert-block fade in" id="successAlert">
+					<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<h4>SUCCESS! </h4>
+					<p>YOU MADE IT APPEAR BY CLICK ON BUTTON BELOW.</p>
+				</div><!-- end alert-->
+					<!-- visible only on small devices-->
+					<div class="well well-small visible-sm">
+						<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone">Give us a call!</span></a>
+					</div><!--end well small-->
+					<div class="well">
+					<div class="page-header">
+						<h1>FANCY HEADER <small>added for fancy stuff</small></h1>
+					</div><!--end page-header-->
+					<p class="lead">HEYO here's some leading copy thats gonna keep your users engaged.</p>
+					<a href="#" class="btn btn-large btn-primary" id="alertMe">Click a nice big button.</a>
+					<a href="#" class="btn btn-large btn-link">Secondary button link.</a>
+				</div><!--end well-->
+				</div><!--end col_12-->
+			</div><!-- end big callout-->
+<!-------------------------------------------------------------------------->
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h1>MORE FEATURES</h1>
+					<p class="lead">Scenester thundercats quinoa vinyl.
+					</p>
+				</div><!--col-12 end-->
+			</div><!-- end featuresHeading-->
+
+			<div class="row" id="s">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Markup with HTML 5</h3>
+						</div><!--end panel heading-->
+						<img src="images/badge_html5.jpg" alt="badge1" class="img-circle">
+						<p>Scenester thundercats quinoa vinyl, gluten-free hashtag street art semiotics kinfolk art party.</p>
+						<a href="#" class="btn btn-warning btn-block">Learn to code html 5</a>
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Style with css3</h3>
+						</div><!--end panel heading-->
+						<img src="images/badge_css3.jpg" alt="badge1" class="img-circle">
+						<p>Scenester thundercats quinoa vinyl, gluten-free hashtag street art semiotics kinfolk art party.</p>
+						<a href="#" class="btn btn-danger btn-block">Learn to code css3</a>
+					</div><!--end panel-->
+				</div><!--end feature-->
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Framework by BOOTSTRAP</h3>
+						</div><!--end panel heading-->
+						<img src="images/badge_bootstrap.jpg" alt="badge1" class="img-circle">
+						<p>Scenester thundercats quinoa vinyl, gluten-free hashtag street art semiotics kinfolk art party.</p>
+						<a href="#" class="btn btn-info btn-block">More bootstrap..</a>
+					</div><!--end panel-->
+				</div><!--end feature-->
+			</div><!-- end features-->
+<!-------------------------------------------------------------------------------------------------->
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h4>Neat tabbable content</h4>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active">
+								<a href="#tab1" data-toggle="tab">Section1</a>
+							</li>
+							<li>
+								<a href="#tab2" data-toggle="tab">Section2</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our location <small>More like our favourite surf spot</small></h4>
+								 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7687.305739274254!2d73.7463911747219!3d15.556728842610463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1449722308737" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div class="tab-pane" id="tab2">
+								<h1>A left floated picture <small>Using placehold.</small></h1>
+								<img src="http://placehold.it/140" alt="image" class="thumbnail pull-left">
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<hr>
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a modal window.</a>
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">A Modal Window</h4>
+											</div><!-- end modal header-->
+											<div class="modal-body">
+												<h4>Texts in a modal</h4>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+												<h4>Popovers in a modal</h4>
+												<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top"
+												data-original-title="You Clicked it!" data-content="I Knew You Would!"> Dont click this button.</a>
+
+												<h4>Tool tips in a modal.</h4>
+												<a href="#" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tool tip, and so should <a href="#" data-original-title="Woo-hoo" rel="tooltip" >this one.</a>
+												<hr>
+												<p><small class="text-muted">PS. This form doesn't do any thing.</small></p>
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input type="text" class="form-control" id="inputName" placeholder="Name">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">E-mail</label>
+														<div class="col-lg-10">
+															<input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+															<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3">
+															</textarea><button type="button" name="button" class="btn btn-success pull-right">Send</button>
+															</div>
+													</div>
+												</form>
+											</div><!--end modal body-->
+											<div class="modal-footer">
+												<button type="button" name="button" class="btn btn-default" data-dismiss="modal">Close</button> <button class="btn btn-primary" type="button"> Save Changes</button>
+											</div><!--end modal footer-->
+										</div><!--modal-content-->
+									</div><!--end modal dialogue-->
+								</div><!--end modal-->
+							</div>
+						</div>
+
+					</div><!--end tabbable-->
+				</div><!-- end col-sm-6-->
+			</div><!-- end moreInfo-->
+
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h4>learn more about web design.</h4>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_webhosting101.jpg" alt="Web hosting 101">
+								<div class="label label-success price">
+									<span class="glyphicon glyphicon-tag"></span>
+									<sup>$</sup>39
+								</div>
+								<div class="caption">
+									<h3>
+										Web hosting 101
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<p><a href="#" class="btn btn-primary btn-small" >Take course</a><a href="#" class="btn btn-small btn-link">Learn More</a></p>
+								</div><!--caption end-->
+							</div><!--thumbnail-->
+						</div><!--col-6-->
+
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_psd2html5.jpg" alt="Web hosting 101">
+								<div class="label label-info price">
+									<span class="glyphicon glyphicon-tag"></span>
+									<sup>Free</sup>
+								</div>
+								<div class="caption">
+									<h3>
+										PSD to HTML5
+									</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<p><a href="#" class="btn btn-primary btn-small" >Take course</a><a href="#" class="btn btn-small btn-link">Learn More</a></p>
+								</div><!--caption end-->
+							</div><!--thumbnail-->
+						</div><!--col-6-->
+					</div><!--thumbnails end-->
+				</div><!-- end col12-->
+			</div><!-- end moreCourses-->
+
+		</div><!--container ends-->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6>Copyright &copy;2013{name}</h6>
+					</div><!--end col-sm-2-->
+					<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!--col-sm-4-->
+					<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="">Home</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="">Links</a></li>
+						<li><a href="">Contacts</a></li>
+					</ul>
+					</div><!--end col-sm-2-->
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="">Facebook</a></li>
+							<li><a href="">Twitter</a></li>
+							<li><a href="">Google Plus</a></li>
+						</ul>
+					</div><!--end col-sm-2-->
+
+				</div>
+			</div><!--end container-->
+
+		</footer><!--end footer-->
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>

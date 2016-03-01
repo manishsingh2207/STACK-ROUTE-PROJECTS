@@ -1,0 +1,20 @@
+Notes:
+
+·         Download the CSV version of this data set.
+·         you will mostly be filtering on the field "Indicator Name"
+·         all the "data" is in the file WDI_Data.csv. The rest are all metadata.
+·         If data cell is blank, do not plot
+Part 1: Data Munging
+
+Write a nodejs program that converts the csv file into a json file that will be used to plot data in part 2. You have to come up with an optimal schema for the json file based on the requirements of Part 2.
+
+Part 2: Plotting with d3.js
+
+Plots:
+
+1.    Make 'bar chart' or 'line chart' plots of the following data for India over the years data is supplied. 1960 - 2015.
+1.    "Arable land (% of land area)",
+2.    "Arable land (hectares per person)",
+3.    "Arable land (hectares)"
+2.    Plot bar chart of the "Arable land (% of land area)" for African countries in the year 2010.
+3.    Plot (line chart) "Arable land (hectares)" aggregated by continent over the years data is present"

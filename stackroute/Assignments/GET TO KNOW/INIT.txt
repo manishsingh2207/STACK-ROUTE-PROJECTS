@@ -1,0 +1,21 @@
+1. open git bash.
+2. open stack directory
+3. move to vagrant folder in guest machine
+4. vagrant up
+5. vagrant ssh
+6. static -a 0.0.0.0
+7. ls -a-----to see files shared.
+8. ls -alh
+9. static -a 0.0.0.0 -p 4040--------for listning at a different port at guest 
+
+
+GIT VERSION CONTROL
+10. git clone <URL> (first get in to the directory where you want to clone it)
+11. git add index.html
+12. git config --global user.email "manishsingh2207@outlook.com"
+13. git config --global user.name "manish"
+14. git commit -am "created index file
+13. git commit -a (opens a nasty editor)
+14. git commit -m <message>
+15. git pull(might conflict if changes done on same file)
+16. git mergetool

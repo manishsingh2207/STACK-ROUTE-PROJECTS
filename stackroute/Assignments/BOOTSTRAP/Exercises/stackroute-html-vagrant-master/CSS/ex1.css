@@ -1,0 +1,17 @@
+#content{
+  padding-left: 400px;
+}
+
+body{
+  background-color: #ebebeb;
+  font: sans-serif;
+}
+blockquote{
+  border: solid;
+  border-color: white;
+  text-align: center;
+  border-spacing: 0px;
+  width: 600px;
+  border-width: thin;
+  left: inherit;
+}

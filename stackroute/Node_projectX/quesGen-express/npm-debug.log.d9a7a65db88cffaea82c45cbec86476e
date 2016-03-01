@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-d',
+1 verbose cli   'mongodb',
+1 verbose cli   '--no-bin-links' ]
+2 info using npm@2.14.9
+3 info using node@v0.12.9
+4 verbose node symlink /usr/bin/node
+5 verbose install initial load of /vagrant/quesGen-express/package.json
+6 verbose installManyTop reading scoped package data from /vagrant/quesGen-express/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /vagrant/quesGen-express/node_modules/cookie-parser/package.json
+8 verbose installManyTop reading scoped package data from /vagrant/quesGen-express/node_modules/debug/package.json
+9 verbose installManyTop reading scoped package data from /vagrant/quesGen-express/node_modules/express/package.json
+10 verbose installManyTop reading scoped package data from /vagrant/quesGen-express/node_modules/morgan/package.json
+11 verbose installManyTop reading scoped package data from /vagrant/quesGen-express/node_modules/serve-favicon/package.json
+12 verbose readDependencies loading dependencies from /vagrant/quesGen-express/package.json
+13 silly cache add args [ 'mongodb', null ]
+14 verbose cache add spec mongodb
+15 silly cache add parsed spec { raw: 'mongodb',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'mongodb',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: '*',
+15 silly cache add   type: 'range' }
+16 silly addNamed mongodb@*
+17 verbose addNamed "*" is a valid semver range for mongodb
+18 silly addNameRange { name: 'mongodb', range: '*', hasData: false }
+19 silly mapToRegistry name mongodb
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry http://172.23.238.253:4873/
+22 silly mapToRegistry uri http://172.23.238.253:4873/mongodb
+23 verbose addNameRange registry:http://172.23.238.253:4873/mongodb not in flight; fetching
+24 verbose request uri http://172.23.238.253:4873/mongodb
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 5:47:10 AM
+27 verbose request id d23f48171c88c284
+28 http request GET http://172.23.238.253:4873/mongodb
+29 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+30 info attempt registry request try #2 at 5:49:27 AM
+31 http request GET http://172.23.238.253:4873/mongodb
+32 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+33 info attempt registry request try #3 at 5:52:35 AM
+34 http request GET http://172.23.238.253:4873/mongodb
+35 verbose stack Error: connect ETIMEDOUT
+35 verbose stack     at exports._errnoException (util.js:746:11)
+35 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1012:19)
+36 verbose cwd /vagrant/quesGen-express
+37 error Linux 3.13.0-65-generic
+38 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-d" "mongodb" "--no-bin-links"
+39 error node v0.12.9
+40 error npm  v2.14.9
+41 error code ETIMEDOUT
+42 error errno ETIMEDOUT
+43 error syscall connect
+44 error network connect ETIMEDOUT
+44 error network This is most likely not a problem with npm itself
+44 error network and is related to network connectivity.
+44 error network In most cases you are behind a proxy or have bad network settings.
+44 error network
+44 error network If you are behind a proxy, please make sure that the
+44 error network 'proxy' config is set properly.  See: 'npm help config'
+45 verbose exit [ 1, true ]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>javascript</title>
+      <link rel="stylesheet" type="text/css" href="css/plot2.css"/>
+      <!-- Website Title & Description for Search Engine purposes -->
+      <title></title>
+      <meta name="description" content="">
+      <!-- Mobile viewport optimized -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+      <!-- Include Modernizr in the head, before any other Javascript -->
+      <script src="script/modernizr-2.6.2.min.js"></script>
+      <!--Google fonts-->
+      <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <script src="script/d3.min.js"></script>
+      <script src="script/plot2.js"></script>
+      <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+      <div class="container-fluid">
+         <h4 class="text-center well"id="heading"><strong>Graduate Population of India - State-wise & Gender-wise</strong></h4>
+         <div class="col-12 text-center">
+            <button type="button" class="panel-title text-center" onclick="plot2_1()">
+            States with small population
+            </button>
+            <button type="button" class="panel-title text-center" onclick="plot2_2()">
+            States with large population
+            </button>
+         </div>
+         <div class="row text-center">
+            <div class="col-sm-12 ">
+               <div class="panel" id="bar2">
+                  <div class="panel-heading">
+                  </div>
+                  <!--end panel heading-->
+                  <script>
+                     plot2_1();
+                  </script>
+               </div>
+               <!--end panel-->
+            </div>
+            <!--end col-12-->
+         </div>
+         <!--end row-->
+         <div class="row">
+            <div class="col-lg-6 text-center">
+               <a href="index.html"class="btn btn-lg btn-danger"><strong>Age-wise population distribution in terms of literate population</strong></a>
+            </div>
+            <!--end col-6-->
+            <div class="col-lg-6 text-center">
+               <a href="index2.html"class="btn btn-lg btn-info"><strong>Education Category wise - all India data combined together</strong></a>
+            </div>
+            <!--end col-6-->
+         </div>
+         <!--end row-->
+      </div>
+      <!--end container-->
+      <!-- All Javascript at the bottom of the page for faster page loading -->
+      <!-- First try for the online version of jQuery-->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <!-- If no online access, fallback to our hardcoded version of jQuery -->
+      <script>
+         window.jQuery || document.write('<script src="script/jquery-1.8.2.min.js">')
+      </script>')
+      </script>
+      <!-- Bootstrap JS -->
+      <script src="script/bootstrap.min.js"></script>
+   </body>
+</html>

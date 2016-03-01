@@ -1,0 +1,111 @@
+html5--
+
+<em>-----makes the text italic
+<strong>---makes the text bold.
+<br>--next line
+<ul>--unordered list.
+<ol>--ordered list
+<dl>---definition list.
+eg. <dl>
+    <dt>Definition list
+    <dd>I am strong
+    <dd>I am weak.</dt>
+  </dl>
+  
+ PARENT CHILD RELATIONSHIPS:
+<span>--- 
+
+BLock quotes:
+<blockquote>-----tells browser that anything inside is a quote.
+
+anchor tag:link
+<a href="" target="_blank"  style="color: yellow; text-decoration: none"/>
+
+use link element to link to a file.<link rel="stylesheet" href="">
+
+<img src="" alt="an alternate to image."/>
+
+<div> helps in positioning or styling of containing elements.
+
+CSS:
+#emphasis{}------for an id.
+.class{}----for a class-----
+li:nth-child(3){ color: red}
+
+
+HTML5.
+
+<aside>----info on a website that is connected that should be place aside to some content.
+float.
+set min-width.
+overflow:hidden
+footer.
+
+
+
+<a href="#">Link to itself.</a>----
+
+a:hover{} <!--pseudo class --!>
+
+
+Forms:
+<form action="" method="post">
+<label for="name">Enter your name</label>
+<input id="name" name="name"/>
+<input type="submit" value="GO"/>
+</form>
+
+
+
+image replacement:
+
+h1
+{
+background:url(../img/img.png) no-repeat;
+text-indent: -9999px;
+}
+
+
+relative and absolute positioning.:
+.box{
+width:400px;
+height: 400px;
+margin: auto;
+background:red;
+position:relative;
+top: 20px;
+left:
+right:
+}
+.box{
+width:400px;
+height: 400px;
+margin: auto;
+background:red;
+position:absolute;//--position to its nearest parent. also parent should be positioned.
+top: 20px;
+left:
+right:
+}
+line-height:
+
+<article>
+
+a{
+color:
+font-size:
+}
+li{
+display:inline;
+}
+
+li:after{
+content: '\\';
+padding: 0 5px 0 5px;
+}
+
+li:last-child:after{
+content: none;
+}
+
+<nav>

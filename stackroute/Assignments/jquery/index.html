@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <script id=template1 type=test/template>
+    <h1>{{title}}</h1>
+    <img src={{image}} alt={{title}}/>
+  </script>
+  <body>
+
+  <script src="script/jquery-1.11.3.js"></script>
+  <script src="script/slider.js"></script>
+  <script>
+    (function(){
+      var templateObject=[
+        {
+          title:'udacity',
+          image:'https://lh4.ggpht.com/LUgsz3XTdD-dW9qCenNcFZWaBKM6At_MbMjODMCJOC8ZoR4hIm_rVBQghBmk5kQ-kRa66yhEQT0BH88gUmwX=s85'
+        },
+        {
+          title:'classroom',
+          image:'https://www.gstatic.com/classroom/logo_with_text_350.png'
+        }
+      ]
+
+      var template=$.trim($("#template1").html());
+      $.each(templateObject,function(index,val){
+      var temp=  template.replace(/{{title}}/ig, val.title)
+                         .replace(/{{image}}/ig,val.image);
+
+      $('body').append(temp);
+
+      });
+    })();
+
+  </script>
+  </body>
+</html>

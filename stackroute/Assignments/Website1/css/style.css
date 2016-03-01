@@ -1,0 +1,353 @@
+/* ------------------------ MENU - BAR DIV------------------------ */
+/*--image--*/
+
+.logo img {
+    width: 60%;
+    height: 60%;
+}
+.nav_1 li {
+    display: inline;
+    padding-right: 10px;
+}
+.nav_1 ul {
+    float: right;
+    margin-top: 37px;
+}
+/*--navigation link--*/
+
+.nav_1 a {
+    text-decoration: none;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+    color: black;
+}
+.nav_1 a:hover {
+    text-decoration: underline;
+    font-family: 'Slabo 27px', serif;
+}
+/*menu wrapper div*/
+
+.menu_wrapper {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
+}
+/*-------------------------ABOUT DIV-------------------------*/
+/*--about_wrapper div*/
+
+.about_wrapper {
+    height: 92%;
+    margin-top: 84px;
+    background-image: url("../img/giphy.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid;
+    z-index: -9999;
+}
+/*--about container--*/
+
+.container h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 57px;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    margin-top: 447px;
+    width: 900px;
+}
+/*-------------------------WHO WE ARE DIV-------------------------*/
+/*--who we are div--*/
+
+.who_we_are_wrapper {
+    background-image: url("../img/attendees1.jpg");
+    border-bottom: solid;
+}
+/*--who we are container--*/
+
+.inside_who_we_are_wrapper {
+    color: white;
+    height: 416px;
+    padding-bottom: 44px;
+}
+.browse_1 {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 57px;
+    margin-top: 20px;
+    height: 16px;
+}
+.browse_2 {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 57px;
+    margin-top: 20px;
+}
+.ticket_1,
+.ticket_1_desc,
+.ticket_2,
+.ticket_2_desc,
+.ticket_3,
+.ticket_3_desc {
+    text-align: center;
+}
+/*--image--*/
+
+.ticket_1 img:hover,
+.ticket_2 img:hover,
+.ticket_3 img:hover {
+    width: 115px;
+    height: 115px;
+}
+.ticket_1_desc,
+.ticket_2_desc,
+.ticket_3_desc {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    margin-top: 20px;
+}
+/*--categories container--*/
+
+.categories {
+    margin-top: 25px;
+}
+.inside_who_we_are_wrapper:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+/*--categories wrapper div--*/
+
+.categories_wrapper {
+    width: 943px;
+}
+/* --------------------LATEST HAPPENING whatshot_wrapper DIV------------------------*/
+/*--whatshot container--*/
+
+.whatshot {
+    color: white;
+    font-size: 37px;
+    font-weight: 100;
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+}
+.whatshot p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*-whatshot wrapper div--*/
+
+.whatshot_wrapper {
+    background-color: #3B6161;
+    background-image: url("../img/beijing__s_nightlife_by_will_yen-d4oya5r.jpg");
+    height: 1353px;
+    background-size: cover;
+}
+.events_1 .event1 {
+    background-image: url("../img/arrehman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 412px;
+    border-radius: 25px;
+}
+.events_1 .event2 h3,
+.events_2 .event1 h3 {
+    color: #fff;
+    font-family: 'Slabo 27px', serif;
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 41px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width: 450px;
+    padding-top: 60px;
+}
+.events_1 .event2 p {
+    margin-top: 97px;
+}
+.events_2 .event1 p {
+    margin-top: 70px;
+}
+.events_1 .event2 p,
+.events_2 .event1 p {
+    color: #fff;
+    font-family: 'Slabo 27px', serif;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width: 450px;
+    padding-top: 87px;
+}
+.events_2 .event1 a {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+.events_2 {
+    margin-top: 20px;
+}
+.events_2 .event2 {
+    background-image: url("../img/norteast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 412px;
+    border-radius: 25px;
+}
+/*--image--*/
+
+.event3 img {
+    width: 98%;
+    height: 311px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 49px;
+}
+/*----------------SEARCH EVENT BOX--------------------*/
+/*--search box && transition--*/
+
+#search input[type="text"] {
+    background: url(search-white.png) no-repeat 10px 6px #fcfcfc;
+    border: 1px solid #d1d1d1;
+    font: bold 20px Arial, Helvetica, Sans-serif;
+    color: #bebebe;
+    width: 150px;
+    padding: 6px 35px 6px 35px;
+    border-radius: 10px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    transition: all 0.7s ease 0s;
+}
+#search {
+    text-align: left;
+    margin-top: 5px
+}
+#search_desc {
+    text-align: right;
+    margin-top: -1px;
+    color: white;
+    margin-bottom: 9px;
+    font-size: 37px;
+    font-weight: 100;
+    font-family: 'Slabo 27px', serif;
+}
+.search_wrapper {
+    margin-top: 14px;
+}
+#search input[type="text"]:focus {
+    width: 200px;
+}
+/*---------------------footer 1 div---------------------- */
+
+a {
+    text-decoration: none;
+}
+.footer_1 h5,
+.footer_2 h5,
+.footer_3 h5,
+.footer_4 h5 {
+    font-size: 16px;
+    font-family: pn-regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 2px;
+    text-shadow: 0.7px 0.7px darkslategray;
+    color: white;
+}
+.footer_1 a {
+    font-size: 13px;
+    color: white;
+}
+.footer_2 a,
+.footer_3 a {
+    font-size: 13px;
+    color: #87909a;
+}
+.footer_1,
+.footer_2,
+.footer_3,
+.footer_4 {
+    margin-top: 20px;
+}
+.footer_wrapper {
+    line-height: 20px;
+    background-color: #282F37;
+    margin-top: -20px;
+    padding-bottom: 15px;
+}
+.footer_4 {
+    line-height: 30px;
+}
+/*--JOIN US AND WE ARE HIRING BUTTON--*/
+
+.btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .75);
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    font-family: pn-semibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*--JOIN US BUTTON--*/
+
+.btn-success {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+    background-color: #9CCC47;
+    background-image: linear-gradient(to bottom, #9CCC47, #81b301);
+    background-repeat: repeat-x;
+    border-color: #81b301 #81b301 #387038;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+}
+/*--WE ARE HIRING BUTTON--*/
+
+.btn-info {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+    background-color: #49afcd;
+    background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+    background-repeat: repeat-x;
+    border-color: #2f96b4 #2f96b4 #1f6377;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+}
+/*---------------------------FOOTER 2 div---------------------------*/
+
+.end {
+    background: #2E363F;
+    color: grey;
+    height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+.end_1 {
+    color: grey;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.end_2 {
+    margin-top: 16px;
+}
+.end_2 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
